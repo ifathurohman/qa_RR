@@ -330,10 +330,10 @@ class M_api extends CI_Model {
             // $this->insert_notification($data_notif);
 
             $protocol   = "smtp";
-            $smtp_host  = "mail.rumahruth.or.id";
-            $smtp_port  = "587";
-            $smtp_user  = "info@rumahruth.or.id";
-            $smtp_pass  = "12345!";
+            $smtp_host  = "";
+            $smtp_port  = "";
+            $smtp_user  = "";
+            $smtp_pass  = "";
             // endif;
             $config = Array(
                 'useragent'     => "Codeigniter",
