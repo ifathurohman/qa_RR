@@ -226,11 +226,6 @@ class M_email extends CI_Model {
                 'newline'       => "\r\n"
             );
             
-
-         //    $this->email->to("luna@rcelectronic.net");
-         //    $this->email->bcc($bcc);
-         //    $this->email->message($this->load->view($page_email, $data, TRUE));
-        	// $send = $this->email->send();
         	$this->load->library('email');
 	        $this->email->initialize($config);
 	        $this->email->set_newline("\r\n");
