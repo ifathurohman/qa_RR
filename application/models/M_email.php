@@ -206,12 +206,12 @@ class M_email extends CI_Model {
         if($cek_page == "ya"):
             $this->load->view($page_email,$data);
         else:
-        	$email_to 	= 'info@rumahruth.or.id';
+            $email_to 	= '';
             $protocol   = "smtp";
-            $smtp_host  = "mail.rumahruth.or.id";
-            $smtp_port  = "587";
-            $smtp_user  = "info@rumahruth.or.id";
-            $smtp_pass  = "12345!";
+            $smtp_host  = "";
+            $smtp_port  = "";
+            $smtp_user  = "";
+            $smtp_pass  = "";
             
             $config = Array(
                 'useragent'     => "Codeigniter",
